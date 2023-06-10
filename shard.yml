@@ -1,0 +1,13 @@
+name: to_braille
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  to_braille:
+    main: src/to_braille.cr
+
+crystal: 1.8.2
+
+license: MIT
