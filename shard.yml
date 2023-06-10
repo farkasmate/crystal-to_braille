@@ -2,7 +2,12 @@ name: to_braille
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Mate Farkas <mate.farkas@sch.hu>
+
+dependencies:
+  drawille-cr:
+    github: joeyrobert/drawille-cr
+    version: ~> 0.2
 
 targets:
   to_braille:

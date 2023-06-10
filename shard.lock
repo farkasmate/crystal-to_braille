@@ -1,2 +1,6 @@
 version: 2.0
-shards: {}
+shards:
+  drawille-cr:
+    git: https://github.com/joeyrobert/drawille-cr.git
+    version: 0.2.0
+
