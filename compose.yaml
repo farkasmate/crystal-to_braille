@@ -1,0 +1,10 @@
+services:
+  to_braille:
+    build: .
+    command: |
+      sh -c "
+        cp /export/to_braille /out/
+        chown $(stat -c '%u:%g' /out/) /out/to_braille
+      "
+    volumes:
+      - ./bin/:/out/:rw

@@ -1,0 +1,13 @@
+*.swp
+.dockerignore
+.editorconfig
+.git/
+.gitignore
+.shards/
+Dockerfile
+LICENSE
+README.md
+bin/
+compose.yaml
+docs/
+lib/
