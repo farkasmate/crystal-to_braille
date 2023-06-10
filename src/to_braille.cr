@@ -1,8 +1,8 @@
-# TODO: Write documentation for `ToBraille`
+require "colorize"
 require "drawille-cr"
 
 module ToBraille
-  VERSION = "0.1.0"
+  Colorize.enabled = false
 
   canvas = Drawille::Canvas.new
 
@@ -12,5 +12,5 @@ module ToBraille
     end
   end
 
-  puts canvas.render
+  puts canvas.render.rstrip(" ")
 end
